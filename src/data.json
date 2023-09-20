@@ -1,0 +1,41 @@
+[
+    {
+      "name": "Ndolè",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper dui vitae convallis tristique.",
+      "price": 10,
+      "image" : "Photo_ndole.jpg"
+      
+    },
+    {
+      "name": "Choucouya",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper dui vitae convallis tristique.",
+      "price": 20,
+      "image" : "Photo_ndole.jpg"
+    },
+    {
+      "name": "Poulet Braisé",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper dui vitae convallis tristique.",
+      "price": 15,
+      "image" : "Photo_ndole.jpg"
+    },
+    {
+        "name": "Capitaine Braisé",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper dui vitae convallis tristique.",
+        "price": 20,
+        "image" : "Photo_ndole.jpg"
+    },
+    {
+        "name": "Ailes de poulet",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper dui vitae convallis tristique.",
+        "price": 10,
+        "image" : "Photo_ndole.jpg"
+    },
+    {
+        "name": "Beignet Haricot",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper dui vitae convallis tristique.",
+        "price": 15,
+        "image" : "Photo_ndole.jpg"
+    }
+
+]
+  

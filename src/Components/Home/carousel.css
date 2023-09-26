@@ -5,7 +5,7 @@
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -28,4 +28,9 @@
     font-size: 1.25rem;
     line-height: 1.4;
   }
+}
+
+.custom-carousel {
+  height: 100%; /* ou toute autre valeur */
+  width: 100%;  /* ou toute autre valeur */
 }

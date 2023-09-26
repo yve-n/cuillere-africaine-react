@@ -3,7 +3,7 @@ import './carousel.css'
 
 export default function Home() {
     return (
-        <div id="myCarousel" className="carousel slide mb-6" data-bs-ride="carousel">
+        <div id="myCarousel" className="carousel slide mb-6 custom-carousel" data-bs-ride="carousel">
             <div className="carousel-indicators">
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -14,28 +14,28 @@ export default function Home() {
                     <img src={`${process.env.PUBLIC_URL}/images/cuillere_afr_accueil.jpg`} className="bd-placeholder-img" alt="vue avant du restaurant" loading="lazy" width="100%" height="100%" />
                     <div className="container">
                         <div className="carousel-caption text-start">
-                            <h1>Example headline.</h1>
-                            <p className="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
+                            <h1>Bienvenue à Cuillère Africaine, votre escapade gastronomique africaine à Paris.</h1>
+                            <p className="opacity-75">Découvrez une cuisine authentique, riche en saveurs et en couleurs.</p>
                             <p><a className="btn btn-lg btn-primary" href="/">Sign up today</a></p>
                         </div>
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
+                    <img src={`${process.env.PUBLIC_URL}/images/cuillere_afr_accueil.jpg`} className="bd-placeholder-img" alt="vue avant du restaurant" loading="lazy" width="100%" height="100%" />
                     <div className="container">
                         <div className="carousel-caption">
-                            <h1>Another example headline.</h1>
-                            <p>Some representative placeholder content for the second slide of the carousel.</p>
+                            <h1>Bienvenue à Cuillère Africaine, votre escapade gastronomique africaine à Paris.</h1>
+                            <p>Découvrez une cuisine authentique, riche en saveurs et en couleurs.</p>
                             <p><a className="btn btn-lg btn-primary" href="/">Learn more</a></p>
                         </div>
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
+                    <img src={`${process.env.PUBLIC_URL}/images/cuillere_afr_accueil.jpg`} className="bd-placeholder-img" alt="vue avant du restaurant" loading="lazy" width="100%" height="100%" />
                     <div className="container">
                         <div className="carousel-caption text-end">
-                            <h1>One more for good measure.</h1>
-                            <p>Some representative placeholder content for the third slide of this carousel.</p>
+                            <h1>Bienvenue à Cuillère Africaine, votre escapade gastronomique africaine à Paris.</h1>
+                            <p>Découvrez une cuisine authentique, riche en saveurs et en couleurs.</p>
                             <p><a className="btn btn-lg btn-primary" href="/">Browse gallery</a></p>
                         </div>
                     </div>

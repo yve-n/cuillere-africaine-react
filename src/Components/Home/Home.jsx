@@ -22,7 +22,6 @@ export default function Home() {
                         <div className="carousel-caption text-start">
                             <h1>Bienvenue à Cuillère Africaine, votre escapade gastronomique africaine à Paris.</h1>
                             <p className="opacity-75">Découvrez une cuisine authentique, riche en saveurs et en couleurs.</p>
-                            <p><a className="btn btn-lg btn-primary" href="/">Sign up today</a></p>
                         </div>
                     </div>
                 </div>
@@ -32,7 +31,6 @@ export default function Home() {
                         <div className="carousel-caption">
                             <h1>Bienvenue à Cuillère Africaine, votre escapade gastronomique africaine à Paris.</h1>
                             <p>Découvrez une cuisine authentique, riche en saveurs et en couleurs.</p>
-                            <p><a className="btn btn-lg btn-primary" href="/">Learn more</a></p>
                         </div>
                     </div>
                 </div>
@@ -42,7 +40,6 @@ export default function Home() {
                         <div className="carousel-caption text-end">
                             <h1>Bienvenue à Cuillère Africaine, votre escapade gastronomique africaine à Paris.</h1>
                             <p>Découvrez une cuisine authentique, riche en saveurs et en couleurs.</p>
-                            <p><a className="btn btn-lg btn-primary" href="/">Browse gallery</a></p>
                         </div>
                     </div>
                 </div>

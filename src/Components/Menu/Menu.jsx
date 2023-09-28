@@ -4,7 +4,17 @@ import Product from '../../data.json'
 export default function Menu() {
     return (
         <>
-            <hr className="featurette-divider"></hr>
+            <section className="py-3 text-center container">
+                <div className="row py-lg-3">
+                    <div className="col-lg-6 col-md-8 mx-auto">
+                        <h1 className="fw-light">Notre Menu</h1>
+                        <p className="lead text-body-secondary">
+                        Explorez notre menu varié, conçu pour ravir tous les palais. De l'incontournable Abolo au délicieux Choucouya, 
+                        chaque plat est préparé avec des ingrédients de qualité et une touche de tradition africaine.
+                        </p>
+                    </div>
+                </div>
+            </section>
             <div className="album py-5 bg-body-tertiary">
                 <div className="container">
                     <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
@@ -15,11 +25,7 @@ export default function Menu() {
                                     <div className="card-body">
                                         <h5 className="card-title">{item.name}</h5>
                                         <p className="card-text">{item.description}</p>
-                                        <div className="d-flex justify-content-between align-items-center">
-                                            <div className="btn-group">
-                                                <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                                                <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                                            </div>
+                                        <div className="d-flex justify-content-end">
                                             <small className="text-body-secondary">{item.price} €</small>
                                         </div>
                                     </div>

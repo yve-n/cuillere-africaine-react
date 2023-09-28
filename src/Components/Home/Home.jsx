@@ -11,7 +11,13 @@ export default function Home() {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src={`${process.env.PUBLIC_URL}/images/cuillere_afr_accueil.jpg`} className="bd-placeholder-img" alt="vue avant du restaurant" loading="lazy" width="100%" height="100%" />
+                    {/* <picture>
+                        <source type="image/avif" srcset={`${process.env.PUBLIC_URL}/bg_ca_1920_1080.avif`} />
+                        <img src={`${process.env.PUBLIC_URL}/images/cuillere_afr_accueil.jpg`} className="bd-placeholder-img" 
+                        alt="vue avant du restaurant" loading="lazy" />
+                    </picture> */}
+                    <img src={`${process.env.PUBLIC_URL}/images/cuillere_afr_accueil.jpg`} className="bd-placeholder-img" alt="vue avant du restaurant"
+                        loading="lazy" />
                     <div className="container">
                         <div className="carousel-caption text-start">
                             <h1>Bienvenue à Cuillère Africaine, votre escapade gastronomique africaine à Paris.</h1>
@@ -21,7 +27,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img src={`${process.env.PUBLIC_URL}/images/cuillere_afr_accueil.jpg`} className="bd-placeholder-img" alt="vue avant du restaurant" loading="lazy" width="100%" height="100%" />
+                    <img src={`${process.env.PUBLIC_URL}/images/cuillere_afr_accueil.jpg`} className="bd-placeholder-img" alt="vue avant du restaurant" loading="lazy" />
                     <div className="container">
                         <div className="carousel-caption">
                             <h1>Bienvenue à Cuillère Africaine, votre escapade gastronomique africaine à Paris.</h1>
@@ -31,7 +37,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img src={`${process.env.PUBLIC_URL}/images/cuillere_afr_accueil.jpg`} className="bd-placeholder-img" alt="vue avant du restaurant" loading="lazy" width="100%" height="100%" />
+                    <img src={`${process.env.PUBLIC_URL}/images/cuillere_afr_accueil.jpg`} className="bd-placeholder-img" alt="vue avant du restaurant" loading="lazy" />
                     <div className="container">
                         <div className="carousel-caption text-end">
                             <h1>Bienvenue à Cuillère Africaine, votre escapade gastronomique africaine à Paris.</h1>
